@@ -1,0 +1,33 @@
+.navbar {
+  background-color: rgb(131, 131, 195);
+}
+
+i:hover {
+  color: rgb(65, 246, 150);
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-family: "Goblin One", cursive; 
+}
+
+.nav-item {
+  padding: 0 25px;
+}
+
+.nav-item:hover {
+  background-color: #eff2f5;
+  border-radius: 10px;
+}
+
+.active {
+  color: rgb(65, 246, 150) !important;
+  border-bottom: 5px solid rgb(65, 246, 150);
+}
+
+
+.header__search {
+  background-color: #eff2f5;
+  padding: 7px 15px;
+  border-radius: 999px;
+}
