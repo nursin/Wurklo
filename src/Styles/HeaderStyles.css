@@ -1,18 +1,10 @@
-.navbar {
-  background-color: rgb(131, 131, 195);
-}
-
 i:hover {
-  color: rgb(65, 246, 150);
+  color: rgb(65, 246, 150) !important;
 }
 
 .navbar-brand {
   font-size: 24px;
   font-family: "Goblin One", cursive; 
-}
-
-.nav-item {
-  padding: 0 25px;
 }
 
 .nav-item:hover {
