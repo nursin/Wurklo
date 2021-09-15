@@ -22,28 +22,14 @@ function Header() {
 
     setInput('');
   }
+
+  // the layout is for mobile and order classes set lg viewport layout
   return (
     <div>
       <div className="container-fluid shadow p-3 mb-2 bg-body rounded">
         <div className="row d-flex align-items-center">
-          <div className="col-3 d-flex align-items-center">
-            <a className="navbar-brand text-dark ps-2" href="/home">Wurklo</a>
-            <Form className="header__search bg-secondary bg-opacity-50">
-              <FormGroup>
-                <Input
-                  type="text"
-                  name="search"
-                  id="search"
-                  placeholder="Search Wurklo . . ."
-                  value={input}
-                  onChange={e => setInput(e.target.value)}
-                />
-              </FormGroup>
-              <Button hidden onClick={handleSubmit} type="submit">Submit</Button>
-            </Form>
-          </div>
-          <div className="col-6 bg-white d-flex justify-content-center">
-            <Navbar className="bg-white" light sticky="top" expand="md" color="light">
+          <div className="col-1 col-md-6 bg-white d-flex justify-content-start justify-content-md-center order-md-3">
+            <Navbar className="bg-white" light sticky="top" expand="lg" color="light">
               <NavbarToggler style={{ color: "black" }} onClick={() => setToggleNav(!toggleNav)} onBlur={() => setToggleNav(false)} />
               <Collapse isOpen={toggleNav} navbar>
                 <Nav navbar>
@@ -76,13 +62,31 @@ function Header() {
               </Collapse>
             </Navbar>
           </div>
-          <div className="col-2 d-flex justify-content-end align-items-center">
-            <Avatar src='https://source.unsplash.com/random/800' />
-            <h4 className="fs-6 fw-bold ps-2 pt-2">Bobby Keel</h4>
+          <div className="col-10 col-md-1 order-md-1">
+            <a className="navbar-brand text-dark" href="/home">Wurklo</a>
           </div>
-          <div className="col-1">
+          <div className="col-1 col-md-2 d-flex justify-content-end align-items-center order-md-4">
+            <Avatar src='https://source.unsplash.com/random/800' />
+            <h4 className="fs-6 fw-bold ps-2 pt-2 d-none d-md-block">Bobby Keel</h4>
+          </div>
+          <div className="col-md-2 order-md-2">
+            <Form className="header__search bg-secondary bg-opacity-50">
+              <FormGroup>
+                <Input
+                  type="text"
+                  name="search"
+                  id="search"
+                  placeholder="Search Wurklo . . ."
+                  value={input}
+                  onChange={e => setInput(e.target.value)}
+                />
+              </FormGroup>
+              <Button className="d-none" onClick={handleSubmit} type="submit">Submit</Button>
+            </Form>
+          </div>
+          <div className="col-md-1 order-md-5 d-none d-md-block">
             <Link className="nav-link" to="/login">
-              <i className="fa fa-sign-in fa-2x px-4 text-secondary bg-opacity-50" />
+              <i className="fa fa-sign-in fa-2x text-secondary bg-opacity-50" />
             </Link>
           </div>
         </div>
