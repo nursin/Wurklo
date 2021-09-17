@@ -44,13 +44,13 @@ function Header() {
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink className="nav-link" to="/myjobs">
+                    <NavLink className="nav-link" to="/searchjobs">
                       <i className="fa fa-briefcase fa-2x px-4" />
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink className="nav-link" to="/associates">
-                      <i className="fa fa-address-card fa-2x px-4" />
+                    <NavLink className="nav-link" to="/searchprojects">
+                      <i className="fa fa-pencil fa-2x px-4" />
                     </NavLink>
                   </NavItem>
                   <NavItem>
@@ -73,6 +73,7 @@ function Header() {
             <Form className="header__search bg-secondary bg-opacity-50">
               <FormGroup>
                 <Input
+                className=""
                   type="text"
                   name="search"
                   id="search"
@@ -86,7 +87,7 @@ function Header() {
           </div>
           <div className="col-lg-1 order-lg-5 d-none d-lg-block">
             <Link className="nav-link" to="/login">
-              <i className="fa fa-sign-in fa-2x text-secondary bg-opacity-50" />
+              <i className="fa fa-sign-in fa-2x px-4 p-2 text-secondary bg-opacity-50" />
             </Link>
           </div>
         </div>
