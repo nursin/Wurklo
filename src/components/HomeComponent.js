@@ -12,7 +12,7 @@ import PostSender from './PostSenderComponent';
 
 function Home() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid bg-light">
       <div className="row">
         <div className="col-2 d-flex flex-column align-items-start ps-0 mt-2 py-2">
           <p>My Profile</p>
@@ -22,6 +22,7 @@ function Home() {
           <p>Settings</p>
         </div>
         <div className="col-8">
+          {/* Popular Projects */}
           <PostSender />
           <PostFeed />
         </div>
