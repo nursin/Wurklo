@@ -1,3 +1,7 @@
-.custom__card {
+.postSender__card {
   border-radius: 2rem;
+}
+
+.postSender__video-photo-upload {
+  cursor: pointer;
 }

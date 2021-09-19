@@ -59,14 +59,14 @@ function Header() {
               </Collapse>
             </Navbar>
           </div>
-          <div className="col-10 col-lg-1 order-lg-1">
+          <div className="col-10 col-lg-3 order-lg-1 d-flex justify-content-start ps-5">
             <a className="navbar-brand text-dark" href="/home">Wurklo</a>
           </div>
           <div className="col-1 col-lg-2 d-flex justify-content-end align-items-center order-lg-4">
             <Avatar src='https://source.unsplash.com/random/800' />
             <h4 className="fs-6 fw-bold ps-2 pt-2 d-none d-lg-block">Bobby Keel</h4>
           </div>
-          <div className="col-lg-2 order-lg-2">
+          {/* <div className="col-lg-2 order-lg-2">
             <Form className="header__search bg-secondary bg-opacity-50">
               <FormGroup>
                 <Input
@@ -81,7 +81,7 @@ function Header() {
               </FormGroup>
               <Button className="d-none" onClick={handleSubmit} type="submit">Submit</Button>
             </Form>
-          </div>
+          </div> */}
           <div className="col-lg-1 order-lg-5 d-none d-lg-block">
             <Link className="nav-link" to="/login">
               <i className="fa fa-sign-in fa-2x px-4 p-2 text-secondary bg-opacity-50" />
