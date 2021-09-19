@@ -1,0 +1,18 @@
+.schedule__card {
+  border-radius: 2rem;
+  font-size: 0.75rem;
+}
+
+.card__title {
+  font-weight: bold;
+}
+
+.card__price {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.schedule__card:hover {
+  transform: scale(1.07);   /* scale up to 107% when hover for transition */
+  cursor: pointer;
+}

@@ -55,11 +55,6 @@ function Header() {
                       <i className="fa fa-pencil fa-2x px-4" />
                     </NavLink>
                   </NavItem>
-                  <NavItem>
-                    <NavLink className="nav-link" to="/settings">
-                      <i className="fa fa-cog fa-2x px-4" />
-                    </NavLink>
-                  </NavItem>
                 </Nav>
               </Collapse>
             </Navbar>

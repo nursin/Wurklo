@@ -17,7 +17,7 @@ function PostSender() {
   }
   return (
     <div>
-      <Card className="custom__card m-3 border shadow">
+      <Card className="custom__card shadow">
         <CardBody>
           <CardTitle className="fs-3">Post Sender</CardTitle>
           <CardSubtitle tag="h6" className="mb-2 text-muted">Post Sender</CardSubtitle>

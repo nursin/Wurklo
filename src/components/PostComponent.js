@@ -7,7 +7,7 @@ import '../Styles/PostStyles.css';
 function Post({title, image, text}) {
   return (
     <>
-      <Card className="custom__card m-3 border shadow">
+      <Card className="custom__card mt-3 border shadow">
         <CardBody>
           <CardTitle className="fs-3">{title}</CardTitle>
           <CardSubtitle>{text}</CardSubtitle>
