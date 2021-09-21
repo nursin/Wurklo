@@ -9,7 +9,7 @@ import '../Styles/ScheduleStyles.css';
 function Schedule({ title, image, time, price }) {
     return (
         <div className="row justify-content-end">
-            <div className="schedule__card text-start shadow mb-3 p-2 d-flex align-items-center col-xl-8 me-3">
+            <div className="schedule__card text-start shadow mb-3 p-2 d-flex align-items-center col-xl-8 me-3 bg-white">
                 <Avatar className="col-2" src={image} />
                 <div className="col p-1">
                     <div className="card__title">{title}</div>

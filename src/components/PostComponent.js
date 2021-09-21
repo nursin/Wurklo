@@ -10,7 +10,7 @@ function Post({ user, timestamp, title, image, text, price }) {
         <div className="row justify-content-center p-0 m-0">
             <div className="d-flex align-items-center justify-content-center">
                 <Card className="custom__card mb-3 border shadow">
-                    <CardHeader className="d-flex align-items-center">
+                    <CardHeader className="d-flex align-items-center bg-white">
                         <Avatar className="col-1" src='https://source.unsplash.com/random/800' />
                         <div className="col-2">
                             <div className="fs-6 fw-bold">{user}</div>

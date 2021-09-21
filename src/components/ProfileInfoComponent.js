@@ -6,7 +6,7 @@ import '../Styles/ProfileInfoStyles.css';
 function ProfileInfo() {
     return (
         <>
-            <div className="col col-lg-6 col-xl-8 custom-card d-flex align-items-center shadow bg-white mx-2">
+            <div className="custom-card d-flex align-items-center shadow bg-white mx-2">
                 <img className="img-fluid profileInfo__image p-3" src="https://source.unsplash.com/random/800" alt="" />
                 <div className="col d-flex-column justify-content-start">
                     <h3 className="col">Bobby Keel</h3>
