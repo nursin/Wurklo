@@ -5,10 +5,10 @@ import React from 'react';
 import '../Styles/HomeStyles.css';
 
 // components
-import PostFeed from './PostFeedComponent';
-import PostSender from './PostSenderComponent';
-import Schedule from './ScheduleComponent';
-import Messenger from './MessengerComponent';
+import PostFeed from '../components/PostFeedComponent';
+import PostSender from '../components/PostSenderComponent';
+import Schedule from '../components/ScheduleComponent';
+import Messenger from '../components/MessengerComponent';
 
 // redux
 
@@ -28,31 +28,31 @@ function Home() {
                 <div className="d-none d-md-block col-lg-3">
                     <Schedule
                         image='https://source.unsplash.com/random/850'
-                        title='Build me a porch'
+                        title='Clean trash from yard'
                         time='8:00 AM'
                         price={45}
                     />
                     <Schedule
                         image='https://source.unsplash.com/random/750'
-                        title='Build me a porch'
+                        title='Mow my lawn'
                         time='10:00 AM'
                         price={95}
                     />
                     <Schedule
                         image='https://source.unsplash.com/random/650'
-                        title='Build me a porch'
+                        title='Help me move'
                         time='12:00 PM'
                         price={65}
                     />
                     <Schedule
                         image='https://source.unsplash.com/random/550'
-                        title='Build me a porch'
+                        title='Cut my grass'
                         time='1:30 PM'
                         price={245}
                     />
                     <Schedule
                         image='https://source.unsplash.com/random/450'
-                        title='Build me a porch'
+                        title='Wash my dishes'
                         time='4:00 PM'
                         price={75}
                     />

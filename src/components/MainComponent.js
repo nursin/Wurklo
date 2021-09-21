@@ -9,40 +9,48 @@ import { connect } from 'react-redux';
 // Components
 import PostFeed from './PostFeedComponent';
 import Header from './HeaderComponent';
-import Home from './HomeComponent';
+import Home from '../pages/HomePage';
 import Messenger from './MessengerComponent';
+import MyProfilePage from '../pages/MyProfilePage';
+import SearchWorkersPage from '../pages/SearchWorkersPage';
+import SearchProjectsPage from '../pages/SearchProjectsPage';
 
 const mapStateToProps = (state) => {
-  return {
-    Greeting: state.Greeting
-  }
+    return {
+        Greeting: state.Greeting
+    }
 }
 
 const mapDispatchToProps = {
-  printHello,
-  printBye
+    printHello,
+    printBye
 }
 
 // component
 function Main(props) {
 
-  console.log('data', props)
-  return (
-    <div>
-      <Header />
-      {/* <Messenger /> */}
-      <Switch>
-        <Route exact path='/home' >
-          <Home />
-        </Route>
-        <Route path='/myprofile' />
-        <Route path='/searchjobs' />
-        <Route path='/searchprojects' />
-        <Route path='/settings' />
-        <Redirect to='/home' />
-      </Switch>
-    </div>
-  );
+    console.log('data', props)
+    return (
+        <div>
+            <Header />
+            {/* <Messenger /> */}
+            <Switch>
+                <Route exact path='/home' >
+                    <Home />
+                </Route>
+                <Route path='/myprofile'>
+                    <MyProfilePage />
+                </Route>
+                <Route path='/searchworkers'>
+                    <SearchWorkersPage />
+                </Route>
+                <Route path='/searchprojects'>
+                    <SearchProjectsPage />
+                </Route>
+                <Redirect to='/home' />
+            </Switch>
+        </div>
+    );
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Main);

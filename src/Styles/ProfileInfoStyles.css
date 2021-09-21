@@ -1,0 +1,5 @@
+.profileInfo__image {
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 3rem !important;
+}   
