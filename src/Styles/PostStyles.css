@@ -5,3 +5,7 @@
 .post__image {
     max-height: auto;
 }
+
+.post__timestamp {
+    font-size: 0.75rem;
+}

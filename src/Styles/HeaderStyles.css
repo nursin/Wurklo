@@ -1,9 +1,4 @@
-.header {
-  
-}
-
-i:hover {
-  background-color: #eff2f5;
+.nav-link:hover {
   color: rgb(65, 246, 150) !important;
   border-radius: 10px;
 }
@@ -20,11 +15,5 @@ i:hover {
 .active {
   color: rgb(65, 246, 150) !important;
   border-bottom: 5px solid rgb(65, 246, 150);
-}
-
-
-.header__search {
-  background-color: #eff2f5;
-  padding: 7px 15px;
-  border-radius: 999px;
+  border-radius: 10px;
 }

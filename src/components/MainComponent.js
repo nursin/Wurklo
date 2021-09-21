@@ -10,6 +10,7 @@ import { connect } from 'react-redux';
 import PostFeed from './PostFeedComponent';
 import Header from './HeaderComponent';
 import Home from './HomeComponent';
+import Messenger from './MessengerComponent';
 
 const mapStateToProps = (state) => {
   return {
@@ -29,6 +30,7 @@ function Main(props) {
   return (
     <div>
       <Header />
+      {/* <Messenger /> */}
       <Switch>
         <Route exact path='/home' >
           <Home />
