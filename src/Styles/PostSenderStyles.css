@@ -4,4 +4,12 @@
 
 .postSender__video-photo-upload {
   cursor: pointer;
+  color: white;
+  background-color: rgb(100, 110, 105);
 }
+
+.postSender__video-photo-upload:hover {
+    cursor: pointer;
+    color: black;
+    background-color:  rgb(65, 246, 150);
+  }

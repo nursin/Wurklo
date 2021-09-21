@@ -28,7 +28,7 @@ function Header() {
     // need to figure out how to make sticky top / fixed top
     // need to make search bar fill left top in desktop mode
     <div> 
-      <div className="header container-fluid shadow mb-3 px-3 pb-2 pb-lg-0 rounded">
+      <div className="header container-fluid shadow mb-3 px-3 pb-lg-0 rounded">
         <div className="row d-flex align-items-center justify-content-evenly">
           <div className="col-1 col-lg-6 bg-white d-flex justify-content-start justify-content-lg-center order-lg-3">
             <Navbar className="bg-white" light sticky="top" expand="lg" color="light">

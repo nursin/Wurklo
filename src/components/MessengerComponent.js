@@ -1,11 +1,12 @@
-import { Avatar } from '@material-ui/core';
-import React, { useState } from 'react'
-import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button, Form, FormGroup, Label, Input } from 'reactstrap';
+// dependencies
+import { Avatar} from '@material-ui/core';
+import React, { useState } from 'react';
+import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
 
-//styles
-import '../Styles/PostSenderStyles.css';
+// styles
+import '../Styles/MessengerStyles.css';
 
-function PostSender() {
+function Messenger() {
     const [input, setInput] = useState('');
 
     const [toggleNav, setToggleNav] = useState(false);
@@ -18,8 +19,9 @@ function PostSender() {
     }
     
     return (
-        <div className="row justify-content-center p-0 mx-2">
-            <div className="custom-card d-flex align-items-center justify-content-evenly shadow col py-2">
+        <div className="row justify-content-center p-0 ms-3">
+            <div className="custom-card d-flex align-items-center justify-content-evenly shadow p-2 px-4">
+
                 <Avatar className="col-2" src='https://source.unsplash.com/random/800' />
                 <Form className="col-10 my-2">
                     <FormGroup className="d-flex align-items-center">
@@ -27,25 +29,23 @@ function PostSender() {
                             type="text"
                             name="postText"
                             id="postText"
-                            placeholder="Whats on your mind . . ."
+                            placeholder="Chat with associates . . ."
                             value={input}
                             onChange={e => setInput(e.target.value)}
                         />
-                        <Label className="postSender__video-photo-upload border border-dark rounded ms-2 p-1" htmlFor="postImage">Video/Photo</Label>
+                        {/* <Label className="postSender__video-photo-upload border border-dark rounded ms-2 p-1" htmlFor="postImage">Video/Photo</Label>
                         <Input
                             type="file"
                             name="postImage"
                             id="postImage"
                             hidden
-                        />
+                        /> */}
                     </FormGroup>
                     <Button className="d-none" onClick={handleSubmit} type="submit">Submit</Button>
                 </Form>
             </div>
         </div>
-        // {/* show uploaded image or video when loaded */ }
-        // {/* <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" /> */ }
     )
 }
 
-export default PostSender
+export default Messenger

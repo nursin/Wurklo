@@ -3,19 +3,19 @@ import Post from './PostComponent';
 
 function PostFeed() {
   return (
-    <div>
+    <>
       <Post
         image={'https://source.unsplash.com/random/800'}
         title='Build me a porch'
         text='This project is for a porch'
       />
       <Post
-        image={'https://source.unsplash.com/random/700'}
+        image={'https://source.unsplash.com/random/100'}
         title='Build me a porch'
         text='This project is for a porch'
       />
       <Post
-        image={'https://source.unsplash.com/random/600'}
+        image={'https://source.unsplash.com/random/200'}
         title='Build me a porch'
         text='This project is for a porch'
       />
@@ -29,7 +29,7 @@ function PostFeed() {
         title='Build me a porch'
         text='This project is for a porch'
       />
-    </div>
+    </>
   )
 }
 
