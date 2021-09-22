@@ -2,14 +2,23 @@
   border-radius: 2rem;
 }
 
-.postSender__video-photo-upload {
+.postSender__video-photo-upload > .MuiSvgIcon-root {
   cursor: pointer;
-  color: white;
-  background-color: rgb(100, 110, 105);
+  color: rgb(190, 190, 190);
+  border-radius: 1rem;
+}
+
+.postSender__video-photo-upload > .MuiSvgIcon-root:hover {
+    color: rgb(65, 246, 150);
 }
 
 .postSender__video-photo-upload:hover {
     cursor: pointer;
-    color: black;
-    background-color:  rgb(65, 246, 150);
+    background-color: rgb(231, 230, 230);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
   }
+
+.postSender__video-photo-upload:active {
+    transform: scale(0.9);
+}

@@ -7,6 +7,10 @@
   font-family: "Goblin One", cursive; 
 }
 
+.navbar-brand:hover {
+  color: rgb(65, 246, 150) !important;
+}
+
 .nav-item:hover {
   background-color: #eff2f5;
   border-radius: 10px;

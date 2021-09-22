@@ -64,11 +64,20 @@ function Header() {
                         </Navbar>
                     </div>
                     <div className="col-10 col-lg-3 order-lg-1 d-flex justify-content-lg-start justify-content-center ps-lg-5 ">
-                        <a className="navbar-brand text-dark" href="/home">Wurklo</a>
+                        <a className="navbar-brand text-dark p-2" href="/home">Wurklo</a>
                     </div>
                     <div className="col-1 col-lg-3 d-flex justify-content-end align-items-center order-lg-4">
-                        <Avatar src='https://source.unsplash.com/random/800' />
-                        <h4 className="fs-6 fw-bold ps-2 pt-2 d-none d-lg-block pe-5">Bobby Keel</h4>
+                        {!true ? (
+                            <>
+                                <Avatar src='https://source.unsplash.com/random/800' />
+                                <h4 className="fs-6 fw-bold ps-2 pt-2 d-none d-lg-block pe-5">Bobby Keel</h4>
+                            </>
+                        ) : (
+                            <Link className="header__loginLink col-1 col-lg-3 d-flex justify-content-end align-items-center order-lg-4 p-2" to='/login'>
+                                <Avatar src='' />
+                                <h4 className="fs-6 fw-bold ps-2 pt-2 d-none d-lg-block pe-3">Login/Register</h4>
+                            </Link>
+                        )}
                     </div>
                     {/* <div className="col-lg-2 order-lg-2">
             <Form className="header__search bg-secondary bg-opacity-50">

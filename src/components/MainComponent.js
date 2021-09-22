@@ -14,6 +14,7 @@ import Messenger from './MessengerComponent';
 import MyProfilePage from '../pages/MyProfilePage';
 import SearchWorkersPage from '../pages/SearchWorkersPage';
 import SearchProjectsPage from '../pages/SearchProjectsPage';
+import LoginPage from '../pages/LoginPage';
 
 const mapStateToProps = (state) => {
     return {
@@ -46,6 +47,9 @@ function Main(props) {
                 </Route>
                 <Route path='/searchprojects'>
                     <SearchProjectsPage />
+                </Route>
+                <Route path='/login'>
+                    <LoginPage />
                 </Route>
                 <Redirect to='/home' />
             </Switch>

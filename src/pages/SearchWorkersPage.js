@@ -12,19 +12,19 @@ function SearchWorkersPage() {
                 <Messenger />
             </div>
             <div className="col col-lg-6">
-                <div className="row d-flex justify-content-center mb-3">
+                <div className="row d-flex justify-content-center mb-3 mx-1 mx-sm-3">
                     <ProfileInfo />
                 </div>
-                <div className="row d-flex justify-content-center mb-3">
+                <div className="row d-flex justify-content-center mb-3 mx-1 mx-sm-3">
                     <ProfileInfo />
                 </div>
-                <div className="row d-flex justify-content-center mb-3">
+                <div className="row d-flex justify-content-center mb-3 mx-1 mx-sm-3">
                     <ProfileInfo />
                 </div>
-                <div className="row d-flex justify-content-center mb-3">
+                <div className="row d-flex justify-content-center mb-3 mx-1 mx-sm-3">
                     <ProfileInfo />
                 </div>
-                <div className="row d-flex justify-content-center mb-3">
+                <div className="row d-flex justify-content-center mb-3 mx-1 mx-sm-3">
                     <ProfileInfo />
                 </div>
             </div>

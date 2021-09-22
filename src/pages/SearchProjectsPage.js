@@ -12,23 +12,23 @@ function SearchProjectsPage() {
                 <Messenger />
             </div>
             <div className="col col-lg-6">
-                <div className="row d-flex justify-content-center mb-3">
+                <div className="row d-flex justify-content-center mb-3 mx-1 mx-sm-3">
                     <ProfileInfo />
                 </div>
-                <div className="row d-flex justify-content-center mb-3">
+                <div className="row d-flex justify-content-center mb-3 mx-1 mx-sm-3">
                     <ProfileInfo />
                 </div>
-                <div className="row d-flex justify-content-center mb-3">
+                <div className="row d-flex justify-content-center mb-3 mx-1 mx-sm-3">
                     <ProfileInfo />
                 </div>
-                <div className="row d-flex justify-content-center mb-3">
+                <div className="row d-flex justify-content-center mb-3 mx-1 mx-sm-3">
                     <ProfileInfo />
                 </div>
-                <div className="row d-flex justify-content-center mb-3">
+                <div className="row d-flex justify-content-center mb-3 mx-1 mx-sm-3">
                     <ProfileInfo />
                 </div>
             </div>
-            <div className="d-none d-md-block col-lg-3">
+            <div className="d-none d-lg-block col-lg-3">
                 <Schedule
                     image='https://source.unsplash.com/random/850'
                     title='Clean trash from yard'

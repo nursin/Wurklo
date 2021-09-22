@@ -1,6 +1,7 @@
 import { Avatar } from '@material-ui/core';
 import React, { useState } from 'react'
 import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
 
 //styles
 import '../Styles/PostSenderStyles.css';
@@ -31,7 +32,7 @@ function PostSender() {
                             value={input}
                             onChange={e => setInput(e.target.value)}
                         />
-                        <Label className="postSender__video-photo-upload border border-dark rounded ms-2 p-1" htmlFor="postImage">Video/Photo</Label>
+                        <Label className="postSender__video-photo-upload ms-2" htmlFor="postImage"><InsertPhotoIcon className="fs-1"/></Label>
                         <Input
                             type="file"
                             name="postImage"

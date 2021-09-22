@@ -25,7 +25,7 @@ function Home() {
                     <PostSender />
                     <PostFeed />
                 </div>
-                <div className="d-none d-md-block col-lg-3">
+                <div className="d-none d-lg-block col-lg-3">
                     <Schedule
                         image='https://source.unsplash.com/random/850'
                         title='Clean trash from yard'
