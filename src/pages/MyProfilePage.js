@@ -13,9 +13,7 @@ function MyProfilePage() {
                     <Messenger />
                 </div>
                 <div className="col col-lg-6">
-                    <div className="row d-flex justify-content-center mb-3 mx-1 mx-sm-3">
-                        <ProfileInfo />
-                    </div>
+                    <ProfileInfo />
                 </div>
                 <div className="d-none d-lg-block col-lg-3">
                     <Schedule

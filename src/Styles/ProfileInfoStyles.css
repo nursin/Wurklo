@@ -3,3 +3,16 @@
     object-fit: cover;
     border-radius: 3rem !important;
 }   
+
+.profile__buttons > button {
+    text-transform: inherit;
+    color: #5f6368;
+    border-radius: 1rem;
+    background-color: rgb(156, 165, 160);
+    color: white;
+}
+
+.profile__buttons > button:hover {
+    background-color: rgb(65, 246, 150);
+    color: rgb(95, 95, 95);
+}

@@ -7,26 +7,16 @@ function SearchWorkersPage() {
     return (
         <div className="container-fluid bg-light">
         <div className="row">
-            <div className="d-none d-lg-inline-flex col-lg-3 d-flex flex-column align-items-start ps-0">
+            <div className="col-lg-3 d-none d-lg-inline-flex d-flex flex-column align-items-start ps-0">
                 {/* Messenger - this sidebar will become messenger component*/}
                 <Messenger />
             </div>
             <div className="col col-lg-6">
-                <div className="row d-flex justify-content-center mb-3 mx-1 mx-sm-3">
                     <ProfileInfo />
-                </div>
-                <div className="row d-flex justify-content-center mb-3 mx-1 mx-sm-3">
                     <ProfileInfo />
-                </div>
-                <div className="row d-flex justify-content-center mb-3 mx-1 mx-sm-3">
                     <ProfileInfo />
-                </div>
-                <div className="row d-flex justify-content-center mb-3 mx-1 mx-sm-3">
                     <ProfileInfo />
-                </div>
-                <div className="row d-flex justify-content-center mb-3 mx-1 mx-sm-3">
                     <ProfileInfo />
-                </div>
             </div>
             <div className="d-none d-md-block col-lg-3">
                 <Schedule

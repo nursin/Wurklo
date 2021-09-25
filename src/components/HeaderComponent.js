@@ -67,7 +67,7 @@ function Header() {
                         <a className="navbar-brand text-dark p-2" href="/home">Wurklo</a>
                     </div>
                     <div className="col-1 col-lg-3 d-flex justify-content-end align-items-center order-lg-4">
-                        {!true ? (
+                        {true ? (
                             <>
                                 <Avatar src='https://source.unsplash.com/random/800' />
                                 <h4 className="fs-6 fw-bold ps-2 pt-2 d-none d-lg-block pe-5">Bobby Keel</h4>
