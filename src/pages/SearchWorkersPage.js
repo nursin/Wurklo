@@ -5,7 +5,7 @@ import Schedule from '../components/ScheduleComponent'
 
 function SearchWorkersPage() {
     return (
-        <div className="container-fluid bg-light">
+        <div className="container-fluid">
         <div className="row">
             <div className="col-lg-3 d-none d-lg-inline-flex d-flex flex-column align-items-start ps-0">
                 {/* Messenger - this sidebar will become messenger component*/}

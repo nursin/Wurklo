@@ -6,7 +6,7 @@ import '../Styles/MyProfilePageStyles.css';
 
 function MyProfilePage() {
     return (
-        <div className="container-fluid bg-light">
+        <div className="container-fluid">
             <div className="row">
                 <div className="d-none d-lg-inline-flex col-lg-3 d-flex flex-column align-items-start ps-0">
                     {/* Messenger - this sidebar will become messenger component*/}
