@@ -1,0 +1,30 @@
+.profileCard__image {
+    height: 15rem;
+    object-fit: cover;
+    border-bottom-left-radius: 3rem !important;
+    border-top-left-radius: 3rem !important;
+}   
+
+.profileCard__buttons > button {
+    text-transform: inherit;
+    color: #5f6368;
+    border-radius: 1rem;
+    background-color: rgb(156, 165, 160);
+    color: white;
+}
+
+.profileCard__buttons > button:hover {
+    background-color: rgb(65, 246, 150);
+    color: rgb(95, 95, 95);
+}
+
+.profileCard {
+    text-decoration: none;
+    color: black;
+}
+
+.profileCard:hover {
+    transform: scale(1.05);   /* scale up to 107% when hover for transition */
+    text-decoration: none;
+    color: black;
+}

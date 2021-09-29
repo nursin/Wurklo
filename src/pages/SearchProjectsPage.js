@@ -1,6 +1,6 @@
 import React from 'react'
 import Messenger from '../components/MessengerComponent'
-import ProfileInfo from '../components/ProfileInfoComponent'
+import ProfileCard from '../components/ProfileCardComponent'
 import Schedule from '../components/ScheduleComponent'
 
 function SearchProjectsPage() {
@@ -12,11 +12,11 @@ function SearchProjectsPage() {
                 <Messenger />
             </div>
             <div className="col col-lg-6">
-                    <ProfileInfo />
-                    <ProfileInfo />
-                    <ProfileInfo />
-                    <ProfileInfo />
-                    <ProfileInfo />
+                    <ProfileCard />
+                    <ProfileCard />
+                    <ProfileCard />
+                    <ProfileCard />
+                    <ProfileCard />
             </div>
             <div className="d-none d-lg-block col-lg-3">
                 <Schedule

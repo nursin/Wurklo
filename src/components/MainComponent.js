@@ -15,6 +15,7 @@ import MyProfilePage from '../pages/MyProfilePage';
 import SearchWorkersPage from '../pages/SearchWorkersPage';
 import SearchProjectsPage from '../pages/SearchProjectsPage';
 import LoginPage from '../pages/LoginPage';
+import ProfileInfo from './ProfileInfoComponent';
 
 const mapStateToProps = (state) => {
     return {
@@ -47,6 +48,9 @@ function Main(props) {
                 </Route>
                 <Route path='/searchprojects'>
                     <SearchProjectsPage />
+                </Route>
+                <Route path='/profileinfo'>
+                    <ProfileInfo />
                 </Route>
                 <Route path='/login'>
                     <LoginPage />
