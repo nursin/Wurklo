@@ -4,9 +4,9 @@ import '../Styles/ProfileCardStyles.css';
 
 function ProfileCard() {
     return (
-        <Link to="/profileinfo" className="profileCard custom-card d-flex align-items-center shadow bg-white mx-lg-3 mb-3">
-            <img className="col-5 col-lg-4 img-fluid profileCard__image" src="https://source.unsplash.com/random/800" alt="" />
-            <div className="profileCard__info col-12 col-lg-4 d-bone d-lg-flex-column align-items-start align-self-start ps-2 py-3">
+        <Link to="/profileinfo" className="profileCard d-flex align-items-center rounded bg-white mb-1 mx-0">
+            <img className="col-5 col-lg-4 img-fluid profileCard__image rounded" src="https://source.unsplash.com/random/800" alt="" />
+            <div className="profileCard__info col-lg-4 d-bone d-lg-flex-column align-items-start align-self-start ps-2 py-3">
                 <h5 className="profileCard__name">Bobby Keel</h5>
                 <div className="d-flex flex-column flex-lg-row">
                     <div>

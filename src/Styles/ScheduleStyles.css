@@ -1,5 +1,4 @@
 .schedule__card {
-  border-radius: 2rem;
   font-size: 0.75rem;
 }
 
@@ -13,6 +12,6 @@
 }
 
 .schedule__card:hover {
-  transform: scale(1.07);   /* scale up to 107% when hover for transition */
+  color: blue !important;
   cursor: pointer;
 }

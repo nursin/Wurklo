@@ -19,10 +19,10 @@ function PostSender() {
     }
     
     return (
-        <div className="row justify-content-center p-0 mx-2 mb-3">
-            <div className="custom-card d-flex align-items-center justify-content-evenly shadow col py-2 bg-white">
+        <div className="row justify-content-center mx-0 mb-1">
+            <div className="col-12 d-flex align-items-center justify-content-evenly py-2 bg-white rounded">
                 <Avatar className="col-2" src='https://source.unsplash.com/random/800' />
-                <Form className="col-10 my-2">
+                <Form className="col-10 py-2">
                     <FormGroup className="d-flex align-items-center">
                         <Input
                             type="text"

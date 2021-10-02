@@ -1,8 +1,7 @@
 .profileCard__image {
     height: 15rem;
-    object-fit: cover;
-    border-bottom-left-radius: 3rem !important;
-    border-top-left-radius: 3rem !important;
+    width: 10rem;
+    object-fit: scale-down;
 }   
 
 .profileCard__buttons > button {
@@ -19,12 +18,6 @@
 }
 
 .profileCard {
-    text-decoration: none;
-    color: black;
-}
-
-.profileCard:hover {
-    transform: scale(1.05);   /* scale up to 107% when hover for transition */
     text-decoration: none;
     color: black;
 }
