@@ -1,5 +1,6 @@
-.schedule__card {
-  font-size: 0.75rem;
+.scheduleCard__info {
+  font-size: 1rem;
+  text-decoration: none;
 }
 
 .card__title {
@@ -14,4 +15,17 @@
 .schedule__card:hover {
   color: blue !important;
   cursor: pointer;
+}
+
+.scheduleCard {
+    text-decoration: none;
+    color: black;
+}
+
+.scheduleCard:hover {
+    color: rgb(65, 246, 150);
+}
+
+.scheduleCard__info:hover {
+    background-color: rgb(95, 95, 95) !important;
 }
