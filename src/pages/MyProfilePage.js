@@ -15,7 +15,7 @@ function MyProfilePage() {
     return (
         <div className="container-fluid">
             <div className="row">
-                <div className="col-12 d-none d-lg-block col-lg-3 px-1 ps-lg-1 pe-lg-0 mb-2 mb-lg-0 order-3 order-lg-1">
+                <div className="col-12 d-none d-lg-block col-lg-3 ps-lg-1 pe-lg-1 mb-2 mb-lg-0 order-3 order-lg-1">
                     {/* Messenger - this sidebar will become messenger component*/}
                     {/* <h6 className="text-center p-2">Chat</h6> */}
                     <Messenger />
@@ -75,7 +75,7 @@ function MyProfilePage() {
                                 <h5>Mentor</h5>
                             </Accordion.Header>
                             <Accordion.Body className="p-0">
-                                <Messenger />
+                                <p className='d-flex justify-content-center mt-3 p-2'>This feature in progress.</p>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="7">
@@ -83,7 +83,7 @@ function MyProfilePage() {
                                 <h5>Legal</h5>
                             </Accordion.Header>
                             <Accordion.Body className="p-0">
-                                <Messenger />
+                                <p className='d-flex justify-content-center mt-3 p-2'>This feature in progress.</p>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="8">
@@ -91,7 +91,7 @@ function MyProfilePage() {
                                 <h5>Accounting</h5>
                             </Accordion.Header>
                             <Accordion.Body className="p-0">
-                                <Messenger />
+                                <p className='d-flex justify-content-center mt-3 p-2'>This feature in progress.</p>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="9">
@@ -99,7 +99,7 @@ function MyProfilePage() {
                                 <h5>Insurance</h5>
                             </Accordion.Header>
                             <Accordion.Body className="p-0">
-                                <Messenger />
+                                <p className='d-flex justify-content-center mt-3 p-2'>This feature in progress.</p>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="10">
@@ -107,7 +107,7 @@ function MyProfilePage() {
                                 <h5>Marketing</h5>
                             </Accordion.Header>
                             <Accordion.Body className="p-0">
-                                <Messenger />
+                                <p className='d-flex justify-content-center mt-3 p-2'>This feature in progress.</p>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="11">
@@ -115,7 +115,7 @@ function MyProfilePage() {
                                 <h5>Collaborate</h5>
                             </Accordion.Header>
                             <Accordion.Body className="p-0">
-                                <Messenger />
+                                <p className='d-flex justify-content-center mt-3 p-2'>This feature in progress.</p>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="12">
@@ -123,7 +123,7 @@ function MyProfilePage() {
                                 <h5>Business Statistics</h5>
                             </Accordion.Header>
                             <Accordion.Body className="p-0">
-                                <Messenger />
+                                <p className='d-flex justify-content-center mt-3 p-2'>This feature in progress.</p>
                             </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>

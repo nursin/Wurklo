@@ -7,7 +7,7 @@ function SearchWorkersPage() {
     return (
         <div className="container-fluid">
         <div className="row">
-            <div className="col-lg-3 d-none d-lg-inline-flex d-flex flex-column align-items-start ps-1 px-0">
+            <div className="col-lg-3 d-none d-lg-inline-flex d-flex flex-column align-items-start ps-1 px-1">
                 {/* Messenger - this sidebar will become messenger component*/}
                 <Messenger />
             </div>
