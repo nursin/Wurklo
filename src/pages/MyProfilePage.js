@@ -8,6 +8,9 @@ import ProfileCard from '../components/ProfileCardComponent';
 import Schedule from '../components/ScheduleComponent';
 import '../Styles/MyProfilePageStyles.css';
 
+// need rounded corners accordion
+// move accordion to its own component called profile or something
+
 function MyProfilePage() {
     return (
         <div className="container-fluid">
@@ -21,7 +24,7 @@ function MyProfilePage() {
                     <Accordion defaultActiveKey="0" flush>
                         <Accordion.Item eventKey="0">
                             <Accordion.Header>
-                                <h5>My Profile</h5>
+                                <h5>Profile</h5>
                             </Accordion.Header>
                             <Accordion.Body className="p-0">
                                 <ProfileCard />
@@ -29,7 +32,7 @@ function MyProfilePage() {
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
                             <Accordion.Header>
-                                <h5>My Jobs</h5>
+                                <h5>Jobs</h5>
                             </Accordion.Header>
                             <Accordion.Body className="p-0">
                                 <MyJobs />
@@ -37,7 +40,7 @@ function MyProfilePage() {
                         </Accordion.Item>
                         <Accordion.Item eventKey="2">
                             <Accordion.Header>
-                                <h5>My Projects</h5>
+                                <h5>Projects</h5>
                             </Accordion.Header>
                             <Accordion.Body className="p-0">
                                 <MyProjects />
@@ -45,23 +48,79 @@ function MyProfilePage() {
                         </Accordion.Item>
                         <Accordion.Item eventKey="3">
                             <Accordion.Header>
-                                <h5>My Associates</h5>
+                                <h5>Associates</h5>
                             </Accordion.Header>
                             <Accordion.Body className="p-0">
                                 <MyAssociates />
                             </Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item className="d-block d-lg-none" eventKey="4">
+                        <Accordion.Item eventKey="4">
                             <Accordion.Header>
-                                <h5>My Schedule</h5>
+                                <h5>Schedule</h5>
                             </Accordion.Header>
                             <Accordion.Body className="p-0">
                                 <Schedule />
                             </Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item className="d-block d-lg-none" eventKey="5">
+                        <Accordion.Item eventKey="5">
                             <Accordion.Header>
-                                <h5>My Communications</h5>
+                                <h5>Chat</h5>
+                            </Accordion.Header>
+                            <Accordion.Body className="p-0">
+                                <Messenger />
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="6">
+                            <Accordion.Header>
+                                <h5>Mentor</h5>
+                            </Accordion.Header>
+                            <Accordion.Body className="p-0">
+                                <Messenger />
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="7">
+                            <Accordion.Header>
+                                <h5>Legal</h5>
+                            </Accordion.Header>
+                            <Accordion.Body className="p-0">
+                                <Messenger />
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="8">
+                            <Accordion.Header>
+                                <h5>Accounting</h5>
+                            </Accordion.Header>
+                            <Accordion.Body className="p-0">
+                                <Messenger />
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="9">
+                            <Accordion.Header>
+                                <h5>Insurance</h5>
+                            </Accordion.Header>
+                            <Accordion.Body className="p-0">
+                                <Messenger />
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="10">
+                            <Accordion.Header>
+                                <h5>Marketing</h5>
+                            </Accordion.Header>
+                            <Accordion.Body className="p-0">
+                                <Messenger />
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="11">
+                            <Accordion.Header>
+                                <h5>Collaborate</h5>
+                            </Accordion.Header>
+                            <Accordion.Body className="p-0">
+                                <Messenger />
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="12">
+                            <Accordion.Header>
+                                <h5>Business Statistics</h5>
                             </Accordion.Header>
                             <Accordion.Body className="p-0">
                                 <Messenger />

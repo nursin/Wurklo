@@ -19,11 +19,10 @@ function Messenger() {
     }
     
     return (
-        <div className="messenger col-12 justify-content-center pe-1">
-            <div className="d-flex align-items-center justify-content-evenly py-2 px-4 bg-white rounded">
-
+        <div className="col-12 justify-content-center pe-1">
+            <div className="d-flex pt-3 px-4 bg-white rounded">
                 <Avatar className="col-2 me-2" src='https://source.unsplash.com/random/800' />
-                <Form className="col-10 my-2">
+                <Form className="col-10">
                     <FormGroup className="d-flex align-items-center">
                         <Input
                             type="text"
