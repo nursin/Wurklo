@@ -16,7 +16,7 @@ function Home() {
     return (
         <div className="container-fluid">
             <div className="row">
-                <div className="d-none d-lg-inline-flex col-lg-3 d-flex flex-column align-items-start px-0">
+                <div className="d-none d-lg-inline-flex col-lg-3 d-flex flex-column align-items-start ps-1 px-0">
                     {/* Messenger - this sidebar will become messenger component*/}
                     <Messenger />
                 </div>

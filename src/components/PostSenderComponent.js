@@ -20,9 +20,9 @@ function PostSender() {
     
     return (
         <div className="row justify-content-center mx-0 mb-1">
-            <div className="col-12 d-flex align-items-center justify-content-evenly py-2 bg-white rounded">
-                <Avatar className="col-2" src='https://source.unsplash.com/random/800' />
-                <Form className="col-10 py-2">
+            <div className="col-12 pt-3 d-flex justify-content-evenly bg-white rounded">
+                <Avatar className="col-2 mt-2" src='https://source.unsplash.com/random/800' />
+                <Form className="col-10">
                     <FormGroup className="d-flex align-items-center">
                         <Input
                             type="text"
@@ -32,7 +32,7 @@ function PostSender() {
                             value={input}
                             onChange={e => setInput(e.target.value)}
                         />
-                        <Label className="postSender__video-photo-upload ms-2" htmlFor="postImage"><InsertPhotoIcon className="fs-1"/></Label>
+                        <Label className="postSender__video-photo-upload ms-4 mt-2" htmlFor="postImage"><InsertPhotoIcon className="fs-1"/></Label>
                         <Input
                             type="file"
                             name="postImage"

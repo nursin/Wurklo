@@ -7,11 +7,18 @@ function SearchWorkersPage() {
     return (
         <div className="container-fluid">
         <div className="row">
-            <div className="col-lg-3 d-none d-lg-inline-flex d-flex flex-column align-items-start px-0">
+            <div className="col-lg-3 d-none d-lg-inline-flex d-flex flex-column align-items-start ps-1 px-0">
                 {/* Messenger - this sidebar will become messenger component*/}
                 <Messenger />
             </div>
             <div className="col col-lg-6 px-0">
+                    <ProfileCard />
+                    <ProfileCard />
+                    <ProfileCard />
+                    <ProfileCard />
+                    <ProfileCard />
+                    <ProfileCard />
+                    <ProfileCard />
                     <ProfileCard />
                     <ProfileCard />
                     <ProfileCard />
