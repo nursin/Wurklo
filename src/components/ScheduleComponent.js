@@ -10,7 +10,7 @@ import ScheduleCard from './ScheduleCardComponent';
 
 function Schedule() {
     return (
-        <div className="schedule">
+        <div className="schedule bg-white px-1 mx-1 rounded pt-2">
             <ScheduleCard
                 image='https://source.unsplash.com/random/850'
                 title='Clean trash from yard'
