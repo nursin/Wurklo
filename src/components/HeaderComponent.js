@@ -7,6 +7,9 @@ import { Avatar } from '@material-ui/core';
 // styles
 import '../Styles/HeaderStyles.css';
 
+//images
+import logo from '../shared/Wurklo_logo_website.png';
+
 // redux
 
 
@@ -34,7 +37,7 @@ function Header() {
         <div className="header container-fluid mb-1 px-3 pb-lg-0 bg-white sticky-top">
             <div className="row d-flex align-items-center justify-content-around">
                 <div className="col-1 col-lg-6 bg-white d-flex justify-content-start justify-content-lg-center order-lg-3">
-                    <Navbar className="bg-white" light sticky="top" expand="lg" color="light">
+                    <Navbar  light sticky="top" expand="lg" color="clear">
                         <NavbarToggler style={{ color: "black" }} onClick={() => setToggleNav(!toggleNav)} onBlur={() => setToggleNav(false)} />
                         <Collapse isOpen={toggleNav} navbar>
                             <Nav navbar>
@@ -62,8 +65,8 @@ function Header() {
                         </Collapse>
                     </Navbar>
                 </div>
-                <div className="col-10 col-lg-3 order-lg-1 d-flex justify-content-lg-start justify-content-center ps-lg-5 ">
-                    <a className="navbar-brand text-dark p-2" href="/home">Wurklo</a>
+                <div className="col-10 col-lg-3 order-lg-1 d-flex justify-content-lg-start justify-content-center ps-lg-2 ">
+                    <a className="navbar-brand text-dark px-2" href="/home"><img className='logo' src={logo} alt="Wurklo" /></a>
                 </div>
                 <div className="col-1 col-lg-3 d-flex justify-content-end align-items-center order-lg-4">
                     {true ? (
