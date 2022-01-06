@@ -43,7 +43,7 @@ function Header() {
                         <Collapse isOpen={toggleNav} navbar>
                             <Nav navbar>
                                 <NavItem id="Home" className="mx-3">
-                                    <NavLink className="nav-link" to="/home">
+                                    <NavLink className="nav-link" to="/">
                                         <i className="fa fa-home fa-2x px-4" />
                                     </NavLink>
                                 </NavItem>

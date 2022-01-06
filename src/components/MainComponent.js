@@ -55,7 +55,7 @@ function Main(props) {
                 <Route path='/login'>
                     <LoginPage />
                 </Route>
-                <Redirect to='/home' />
+                <Redirect to='/' />
             </Switch>
         </div>
     );
