@@ -1,14 +1,16 @@
 // dependenices
 import React from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 
 // Redux
 import { printHello, printBye } from '../redux/ActionCreators';
 import { connect } from 'react-redux';
 
 // Components
+import PostFeed from './PostFeedComponent';
 import Header from './HeaderComponent';
 import Home from '../pages/HomePage';
+import Messenger from './MessengerComponent';
 import MyProfilePage from '../pages/MyProfilePage';
 import SearchWorkersPage from '../pages/SearchWorkersPage';
 import SearchProjectsPage from '../pages/SearchProjectsPage';
