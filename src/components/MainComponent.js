@@ -37,7 +37,7 @@ function Main(props) {
             <Header />
             {/* <Messenger /> */}
             <Switch>
-                <Route exact path='/' >
+                <Route exact path='/home' >
                     <Home />
                 </Route>
                 <Route path='/myprofile'>
@@ -55,7 +55,7 @@ function Main(props) {
                 <Route path='/login'>
                     <LoginPage />
                 </Route>
-                <Redirect to='/' />
+                <Redirect to='/home' />
             </Switch>
         </div>
     );
