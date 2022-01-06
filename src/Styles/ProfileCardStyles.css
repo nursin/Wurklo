@@ -1,0 +1,28 @@
+.profileCard__image {
+    height: 15rem;
+    width: 10rem;
+    object-fit: scale-down;
+}   
+
+.profileCard__buttons > button {
+    text-transform: inherit;
+    color: #5f6368;
+    border-radius: 1rem;
+    background-color: rgb(156, 165, 160);
+    color: white;
+}
+
+.profileCard__buttons > button:hover {
+    background-color: rgb(65, 246, 150);
+    color: rgb(95, 95, 95);
+}
+
+.profileCard {
+    text-decoration: none;
+    color: black;
+}
+
+.profileCard:hover {
+    color: rgb(65, 246, 150);
+    background-color: rgb(95, 95, 95) !important;
+}
