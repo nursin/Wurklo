@@ -9,7 +9,7 @@ import '../Styles/PostStyles.css';
 // images
 
 
-function Post({ profilePic, user, timestamp, title, image, text, price }) {
+function Post({ profilePic, user, timestamp, title, image, text, price, feedback }) {
     return (
         <div className="row justify-content-center">
             <div className="col-12 d-flex align-items-center justify-content-center">
@@ -21,7 +21,8 @@ function Post({ profilePic, user, timestamp, title, image, text, price }) {
                             <div className="post__timestamp">{timestamp}</div>
                         </div>
                         <div className="col">
-                            <CardTitle className="fs-3">{title}</CardTitle>
+                            <CardTitle className="fs-3"><a href='https://compassionate-heyrovsky-dabdd4.netlify.app/'>{title}</a>{' '}
+                            <a href='https://docs.google.com/forms/d/e/1FAIpQLSdN8x6uQ5zsvikqxlGXFOdSI2jwglCxTPh705Xwne5oXM1UKg/viewform?usp=sf_link'>{feedback}</a></CardTitle>
                             <CardSubtitle>{text}</CardSubtitle>
                         </div>
                         <div className="card__price col-2 me-2 fs-3">${price}</div>

@@ -73,7 +73,7 @@ function Header() {
                     {true ? (
                         <>
                             <Avatar src={wurkloProfilePic} />
-                            <a href='https://compassionate-heyrovsky-dabdd4.netlify.app/'><h6 className="ps-2 pt-2 d-none d-lg-block pe-5">Return to Wurklo</h6></a>
+                            <h6 className="ps-2 pt-2 d-none d-lg-block pe-5">Jaime Buntz</h6>
                         </>
                     ) : (
                         <Link className="header__loginLink col-1 col-lg-3 d-flex justify-content-end align-items-center order-lg-4 p-2" to='/login'>

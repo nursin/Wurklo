@@ -20,8 +20,9 @@ function PostFeed() {
                 user='Jaime Buntz'
                 timestamp='9/21/21 12:45 PM'
                 image={electricianJob}
-                title='Need Electrician'
-                text='Move electrical into cieling'
+                title='Return to Wurklo'
+                text='Please send feedback about experience of our front-end only app, so we can build the app how you like it'
+                feedback='Send Feedback'
                 price={145}
             />
             <Post
