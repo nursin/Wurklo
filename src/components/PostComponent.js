@@ -21,7 +21,7 @@ function Post({ profilePic, user, timestamp, title, image, text, price, feedback
                             <div className="post__timestamp">{timestamp}</div>
                         </div>
                         <div className="col">
-                            <CardTitle className="fs-3"><a href='https://compassionate-heyrovsky-dabdd4.netlify.app/'>{title}</a>{' '}
+                            <CardTitle className="fs-3"><a href='https://www.wurklo.com/'>{title}</a>{' '}
                             <a href='https://docs.google.com/forms/d/e/1FAIpQLSdN8x6uQ5zsvikqxlGXFOdSI2jwglCxTPh705Xwne5oXM1UKg/viewform?usp=sf_link'>{feedback}</a></CardTitle>
                             <CardSubtitle>{text}</CardSubtitle>
                         </div>
